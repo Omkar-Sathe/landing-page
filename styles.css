@@ -1,0 +1,37 @@
+.hero {
+    background-color: #1f2937;
+}
+
+.hero.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero.main-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sign-up {
+    background-color: #3882f6;
+}
+
+.course-selector {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.hero.link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
