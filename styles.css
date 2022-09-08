@@ -1,48 +1,70 @@
 .flexbox-container {
-    flex-direction: column;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.flex-item {
+    width: 100%;
+    margin: 10px;
+    
 }
 
 .hero {
     background-color: #1f2937;
-    flex: 1;
+    
+    flex: 1 1 0px;
 }
 
-.hero.logo {
+.logo {
+    
     color: #f9faf8;
     font-size: 24px;
+    flex: 1 1 0px;
+    margin: 0%;
+    border: 0px;
 }
 
-.hero.main-title {
+.main-title {
+    
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+    flex: 1 1 0px;
+    margin: 0%;
+    border: 0px;
 }
 
 .sign-up {
+    
     background-color: #3882f6;
-    flex: 1;
+    flex: 1 1 0px;
 }
 
 .course-selector {
+    
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    flex: 1;
+    flex: 1 1 0px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
     font-weight: 100;
-    flex: 1;
+    flex: 1 1 0px;
 }
 
-.hero.link {
+.link {
     color: #e5e7eb;
+    
     font-size: 18px;
+    flex: 1 1 0px;
 }
 
