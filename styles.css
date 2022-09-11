@@ -25,12 +25,12 @@
     
     justify-content: center;
     flex: 1 1 100px;
-    border: red solid 3px;
+    
 }
 
 .landing-info {
     margin: 20px;
-    border: magenta solid 2px;
+    
 }
 
 .logo {
@@ -50,7 +50,7 @@
     font-weight: 800;
     flex: 1 1 0px;
     margin: 20px;
-    border: magenta solid 2px;
+    
 }
 
 .sign-up {
@@ -122,20 +122,20 @@
 }
 
 .top-panel {
-    width: 100%;
+    
     display: flex;
     background-color: #1f2937;
-    border: red solid 2px;
-    height: 80px;
-    padding: 0px;
-    margin: 0px;
+    flex: 1;
+    min-width: 100%;
+    
+    
 }
 
 .links-panel {
     display: flex;
     background-color: #1f2937;
     flex: 1 1 0px;
-    border: red solid 2px;
+    
     color: #e5e7eb;
     justify-content: space-around;
     text-align: center;
@@ -158,5 +158,11 @@ img {
     border: white solid 2px;
     max-width: 50px;
     border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
 }
 
+.promotional-info {
+    padding: 20px;
+    margin: 20px;
+}
